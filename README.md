@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/gigu003/manuscript/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gigu003/manuscript/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of the manuscript tool is to assist in writing scientific
@@ -28,4 +29,3 @@ This is a basic example which shows you how to solve a common problem:
 library(manuscript)
 ## basic example code
 ```
-# manuscript
