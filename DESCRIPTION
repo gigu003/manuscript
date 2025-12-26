@@ -1,0 +1,25 @@
+Package: manuscript
+Title: Tools to Assist Statistical Report Writing
+Version: 0.0.0.9000
+Authors@R: 
+    person("Qiong", "Chen", , "chenq08@126.com", role = c("aut", "cre", "ctb", "cph"))
+Description: Provides tools to assist statistical report writing through the automated
+    generation and management of analysis and reporting projects using RStudio
+    Project workflows. The package enables the creation of standardized directory
+    structures, Quarto (`.qmd`) documents, and README files, supporting reproducible
+    and efficient report preparation.
+Date: 2025-09-20
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    fs,
+    glue,
+    here,
+    rstudioapi,
+    utils
+Suggests:
+    flextable
+Depends: 
+    R (>= 2.10)

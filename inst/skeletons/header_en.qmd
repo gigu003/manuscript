@@ -1,0 +1,37 @@
+---
+title: The manuscript title
+authors:
+  - name: Qiong Chen
+    affiliations:
+     - ref: zlyy
+    corresponding: true
+    email: chenq08@126.com
+  - name: author 2
+    affiliations:
+      - ref: rmyy
+affiliations:
+  - id: zlyy
+    name: Department of Cancer Epidemiology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, China.
+    city: Zhengzhou
+  - id: rmyy
+    name: Another research department，450008。
+    city: Zhenghzou
+
+filters:
+  - authors-block
+  
+execute: 
+  echo: false
+  warning: false
+  message: false
+  tbl-cap-location: top
+bibliography: reference/references.bib
+csl: reference/gbt2015-2.csl
+format: 
+  docx: 
+    output-file: 20240826_肺癌罹患风险
+    number-sections: true
+    number-depth: 3
+    reference-doc: reference/english.docx
+---
+
