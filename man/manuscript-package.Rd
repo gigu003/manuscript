@@ -10,6 +10,14 @@
 
 Provides tools to assist statistical report writing through the automated generation and management of analysis and reporting projects using RStudio Project workflows. The package enables the creation of standardized directory structures, Quarto (`.qmd`) documents, and README files, supporting reproducible and efficient report preparation.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/gigu003/manuscript}
+  \item Report bugs at \url{https://github.com/gigu003/manuscript/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Qiong Chen \email{chenq08@126.com} [contributor, copyright holder]
 
