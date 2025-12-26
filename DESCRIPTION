@@ -9,6 +9,7 @@ Description: Provides tools to assist statistical report writing through the aut
     structures, Quarto (`.qmd`) documents, and README files, supporting reproducible
     and efficient report preparation.
 Date: 2025-09-20
+URL: https://github.com/gigu003/manuscript
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
